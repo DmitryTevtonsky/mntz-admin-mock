@@ -1,0 +1,24 @@
+.layout {
+    color: gray;
+    border: 1px dashed gray;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.layout h3 {
+    color: inherit;
+}
+
+.layout details {
+    white-space: pre-wrap;
+}
+
+.invertedColors {
+    color: white;
+    border-color: white;
+}
+
+
+

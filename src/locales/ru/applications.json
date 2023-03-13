@@ -1,0 +1,33 @@
+{
+    "title": "Приложения",
+    "addApplication": "Добавить приложение",
+    "addApplicationTitle": "Добавление приложения",
+    "updateApplicationTitle": "Обновление приложения",
+    "readApplicationTitle": "Приложение",
+    "createApplication": "Создать приложение",
+    "updateApplication": "Обновить приложение",
+    "form": {
+        "appName": "Название приложения",
+        "appNameMessage": "Введите название приложения",
+        "appCategory": "Категория приложения",
+        "appCategoryMessage": "Выберите категорию приложения",
+        "iconFile": "Иконка для приложения",
+        "iconFileMessage": "Выберите иконку для приложения",
+        "developer": "Разработчик",
+        "developerMessage": "Выберите разработчика",
+        "appStoreLink": "AppStore link",
+        "appStoreLinkMessage": "Введите AppStore link",
+        "googlePlayLink": "GooglePlay link",
+        "linkNotValidMessage": "URL не валиден, должен быть",
+        "oneLinkSubdomain": "OneLink subdomain",
+        "oneLinkSubdomainMessage": "Введите OneLink subdomain",
+        "oneLinkTemplateId": "OneLink Template ID",
+        "oneLinkTemplateIdMessage": "Введите OneLink Template ID"
+    },
+    "card": {
+        "subtitle": "ID разработчика",
+        "column1": "Посты",
+        "column2": "Установки",
+        "column3": "Доход"
+    }
+}

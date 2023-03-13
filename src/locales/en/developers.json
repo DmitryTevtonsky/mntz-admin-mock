@@ -1,0 +1,36 @@
+{
+    "title": "Developers",
+    "addDeveloper": "Add developer",
+    "addDeveloperTitle": "Developer adding",
+    "updateDeveloperTitle": "Developer updating",
+    "readDeveloperTitle": "Developer information",
+    "createDeveloper": "Create developer",
+    "updateDeveloper": "Update developer",
+    "tabs": {
+        "tab1": "General info",
+        "tab2": "Balance"
+    },
+    "balance": {
+        "add": "Add",
+        "paymentAmount": "Payment amount",
+        "paymentAmountMessage": "Input payment amount!"
+    },
+    "form": {
+        "companyName": "Company name",
+        "companyNameMessage": "Enter company name",
+        "email": "E-mail",
+        "emailMessage": "Enter email",
+        "phone": "Phone number",
+        "phoneMessage": "Enter contact phone number",
+        "login": "Login",
+        "loginMessage": "Enter login",
+        "password": "Password",
+        "passwordMessage": "Enter password"
+    },
+    "card": {
+        "subtitle": "Developer ID",
+        "column1": "Applications",
+        "column2": "Balance",
+        "column3": "Installs"
+    }
+}

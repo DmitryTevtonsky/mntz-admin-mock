@@ -1,0 +1,33 @@
+{
+    "title": "Applications",
+    "addApplication": "Add application",
+    "addApplicationTitle": "Application adding",
+    "updateApplicationTitle": "Application updating",
+    "readApplicationTitle": "Application information",
+    "createApplication": "Create application",
+    "updateApplication": "Update application",
+    "form": {
+        "appName": "Application name",
+        "appNameMessage": "Enter application name",
+        "appCategory": "Application category",
+        "appCategoryMessage": "Enter application category",
+        "iconFile": "Application icon",
+        "iconFileMessage": "Select filr for icon",
+        "developer": "Developer",
+        "developerMessage": "Select developer",
+        "appStoreLink": "AppStore link",
+        "appStoreLinkMessage": "Enter AppStore link",
+        "googlePlayLink": "GooglePlay link",
+        "linkNotValidMessage": "URL not valid, must be",
+        "oneLinkSubdomain": "OneLink subdomain",
+        "oneLinkSubdomainMessage": "Enter OneLink subdomain",
+        "oneLinkTemplateId": "OneLink Template ID",
+        "oneLinkTemplateIdMessage": "Enter OneLink Template ID"
+    },
+    "card": {
+        "subtitle": "Developer ID",
+        "column1": "Posts",
+        "column2": "Installs",
+        "column3": "Revenue"
+    }
+}

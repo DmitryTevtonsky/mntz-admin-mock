@@ -1,0 +1,21 @@
+
+
+.layout {
+    height: 100%;
+}
+
+.form {
+    margin-bottom: 1rem;
+}
+
+.formInputItem:global(.ant-form-item) {
+    flex: 1;
+}
+
+.formSubmitItem:global(.ant-form-item) {
+    margin: 0;
+}
+
+.inputNumber {
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Рекламные предложения",
+    "addOffer": "Добавить предложение",
+    "addOfferTitle": "Добавление предложения",
+    "updateOfferTitle": "Обновление предложения",
+    "readOfferTitle": "Предложение",
+    "createOffer": "Создать предложение",
+    "updateOffer": "Обновить предложение",
+    "tabs": {
+        "tab1": "Информация",
+        "tab2": "Медиа",
+        "tab3": "Активные посты"
+    },
+    "media": {
+        "createTitle": "Добавить медиа",
+        "placement": "Расположение",
+        "placementType": "Тип",
+        "addPlacement": "Добавить расположение",
+        "placementMessage": "Выберите расположение",
+        "fileMessage": "Выберите файл"
+    },
+    "activePosts": {
+        "creatorId": "ID автора",
+        "id": "ID",
+        "mediaAssetId": "ID медиа",
+        "offerId": "ID рек. предложения",
+        "postLink": "Ссылка",
+        "socialNetwork": "Расположение",
+        "state": "Статус"
+    },
+    "form": {
+        "appId": "ID приложения",
+        "app": "Приложение",
+        "appCategory": "Категория",
+        "appMessage": "Выберите приложение",
+        "budget": "Бюджет",
+        "balance": "Баланс",
+        "budgetMessage": "Введите бюджет",
+        "baseReward": "Базовая цена",
+        "baseRewardMessage": "Введите базовую цену",
+        "rewardByCountry": {
+            "title": "Цены по странам",
+            "country": "Страна",
+            "countryMessage": "Выберите страну",
+            "price": "Цена",
+            "priceMessage": "Выберите цену",
+            "addButton": "Добавить цену для страны"
+        },
+        "status": {
+            "title": "Текущий статус",
+            "active": "Активен",
+            "paused": "Приостановлен",
+            "stopped": "Завершен",
+            "setActive": "Активировать",
+            "setPause": "Приостановить",
+            "setStop": "Завершить"
+        }
+    },
+    "card": {
+        "subtitle": "ID приложения",
+        "column1": "Посты",
+        "column2": "Установки",
+        "column3": "Доход"
+    },
+    "insufficientBalance": "Недостаточно средств на балансе",
+    "insufficientBalanceTip": "Бюджет не может быть больше, чем текущий баланс разработчика"
+}

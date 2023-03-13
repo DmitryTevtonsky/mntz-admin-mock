@@ -1,0 +1,36 @@
+{
+    "title": "Разработчики",
+    "addDeveloper": "Добавить разработчика",
+    "addDeveloperTitle": "Добавление разработчика",
+    "updateDeveloperTitle": "Обновление разработчика",
+    "readDeveloperTitle": "Разработчик",
+    "createDeveloper": "Создать разработчика",
+    "updateDeveloper": "Обновить разработчика",
+    "tabs": {
+        "tab1": "Информация",
+        "tab2": "Баланс"
+    },
+    "balance": {
+        "add": "Пополнить",
+        "paymentAmount": "Сумма платежа",
+        "paymentAmountMessage": "Введите сумму платежа!"
+    },
+    "form": {
+        "companyName": "Название компании",
+        "companyNameMessage": "Введите название компании",
+        "email": "Е-mail",
+        "emailMessage": "Введите е-mail",
+        "phone": "Номер телефона",
+        "phoneMessage": "Введите номер телефона",
+        "login": "Логин",
+        "loginMessage": "Введите логин",
+        "password": "Пароль",
+        "passwordMessage": "Введите пароль"
+    },
+    "card": {
+        "subtitle": "ID разработчика",
+        "column1": "Приложения",
+        "column2": "Баланс",
+        "column3": "Установки"
+    }
+}

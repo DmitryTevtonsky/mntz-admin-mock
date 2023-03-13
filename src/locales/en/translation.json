@@ -1,0 +1,35 @@
+{
+  "title": "Monetize.app",
+  "languages": {
+    "english": "English",
+    "russian": "Russian"
+  },
+  "log-in": "Log in",
+  "log-out": "Log out",
+  "get-code": "Get code",
+  "pass-code": "Pass code",
+  "phone-number": "Phone number",
+  "phone-number-message": "Please enter your phone number",
+  "code": "Code",
+  "code-message": "Please enter your code",
+  "n/a": "n/a",
+  "back": "Back",
+  "retry": "Retry",
+  "approve": "Approve",
+  "reject": "Reject",
+  "create": "Create",
+  "upload": "Upload",
+  "edit": "Edit",
+  "view": "View",
+  "pending": "Pending",
+  "approved": "Approved",
+  "rejected": "Rejected",
+  "coming-soon": "Coming soon",
+  "coming-soon-description": "This section will be available later",
+  "errors": {
+    "error-holder-title": "Error while fetching data",
+    "requested-url": "Requesed URL",
+    "status": "Status",
+    "somethingWentWrong": "Something went wrong"
+  }
+}

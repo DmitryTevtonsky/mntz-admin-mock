@@ -1,0 +1,10 @@
+.goBackButton {
+    padding: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.goBackButton :global(.anticon) {
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,93 @@
+
+
+.formLayout {
+    height: auto;
+    padding: 1rem 0;
+}
+
+.tabs:global(.ant-tabs) {
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.formDisplay {
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.form {
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.form :global(.ant-form-item-explain-error) {
+    margin-left: 12px;
+}
+
+.submitButtonFormItem {
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+.defaultIconAvatar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appInfoLayout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appInfoDescriptionLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.appInfoName {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.appInfoSecondary {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.specialFormListItem {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.specialFormListItem :global(.ant-form-item) {
+    width: 100%;
+}
+
+.specialFormListItem :global(.remove-button-form-item) {
+    width: auto;
+}
+
+.addRewardsByCountriesFormItem {
+    margin: 0;
+}
+
+.inputNumber {
+    width: 100%;
+}
+
+.controlButton {
+    margin-right: 0.5rem;
+}

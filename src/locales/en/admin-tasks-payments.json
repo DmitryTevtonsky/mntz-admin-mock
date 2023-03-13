@@ -1,0 +1,21 @@
+{
+    "title": "Payments to creators",
+    "rejection-reasons": {
+        "WRONG_MEDIA": "Wrong media",
+        "WRONG_TRACKING_LINK": "Wrong tracking link",
+        "CONTUCT_US": "Contact us"
+    },
+    "columns": {
+        "payment-id": "Payment ID",
+        "creator-id": "Creator ID",
+        "created-at": "Created at",
+        "amount": "Amount",
+        "payment-method-type": "Payment method",
+        "payment-credentials": "Credentials",
+        "state": "Status"
+    },
+    "review-modal": {
+        "title": "Payment to review",
+        "description-title": "Payment information"
+    }
+}

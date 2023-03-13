@@ -1,0 +1,21 @@
+{
+    "title": "Платежи авторам",
+    "rejection-reasons": {
+        "WRONG_MEDIA": "Некорректный контент",
+        "WRONG_TRACKING_LINK": "Неправильная ссылка",
+        "CONTUCT_US": "Связаться с нами"
+    },
+    "columns": {
+        "payment-id": "ID платежа",
+        "creator-id": "ID автора",
+        "created-at": "Дата",
+        "amount": "Сумма",
+        "payment-method-type": "Метод оплаты",
+        "payment-credentials": "Реквизиты",
+        "state": "Статус"
+    },
+    "review-modal": {
+        "title": "Платеж для рассмотрения",
+        "description-title": "Информация о платеже"
+    }
+}

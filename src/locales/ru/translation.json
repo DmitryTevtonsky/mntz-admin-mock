@@ -1,0 +1,35 @@
+{
+  "title": "Monetize.app",
+  "languages": {
+    "english": "Английский",
+    "russian": "Русский"
+  },
+  "log-in": "Войти",
+  "log-out": "Выйти",
+  "get-code": "Получить код",
+  "pass-code": "Отправить код",
+  "phone-number": "Номер телефона",
+  "phone-number-message": "Введите ваш номер телефона",
+  "code": "Код",
+  "code-message": "Введите ваш код",
+  "n/a": "н/д",
+  "back": "Назад",
+  "retry": "Повторить",
+  "approve": "Одобрить",
+  "reject": "Отклонить",
+  "create": "Создать",
+  "upload": "Загрузить",
+  "edit": "Редактировать",
+  "view": "Показать",
+  "pending": "Ожидающие",
+  "approved": "Одобренные",
+  "rejected": "Отклоненные",
+  "coming-soon": "Вскоре появится",
+  "coming-soon-description": "Этот функционал будет доступен позже",
+  "errors": {
+    "error-holder-title": "Ошибка при получении данных",
+    "requested-url": "Запрашиваемый URL",
+    "status": "Статус",
+    "somethingWentWrong": "Что-то пошло не так"
+  }
+}

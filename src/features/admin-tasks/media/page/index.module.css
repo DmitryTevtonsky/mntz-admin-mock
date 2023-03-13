@@ -1,0 +1,55 @@
+.layout {
+    width: 100%;
+    padding: 1rem;
+}
+
+.viewButton {
+    padding: 0;
+}
+
+.modal :global(.ant-modal-close-x) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal :global(.ant-modal-body) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image {
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.image :global(.ant-image-placeholder) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 1rem;
+    /* transform: scale(500%); */
+}
+
+.modalControls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.modalDescriptions {
+    width:100%;
+}
+
+.modalDescriptions :global(.ant-descriptions-item-content) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin: 3px 6px;
+}
+

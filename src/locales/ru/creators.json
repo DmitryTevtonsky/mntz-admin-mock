@@ -1,0 +1,18 @@
+{
+    "title": "Авторы", 
+    "rejection-reasons": {
+        "OWNERSHIP_NOT_CONFIRMED": "Владение не подтверждено",
+        "NOT_ENOUGH_SUBS": "Недостаточно сабов",
+        "GEO_NOT_SUPPORTED": "Геолокация не поддерживается"
+    },
+    "columns": {
+        "creator-id": "Автор ID",
+        "brand-name": "Бренд",
+        "ownership-confirmed": "Владение подтверждено",
+        "subs-count": "Количество сабов"
+    },
+    "review-modal": {
+        "title": "Автор для рассмотрения",
+        "description-title": "Информация об авторе"
+    }
+}

@@ -1,0 +1,18 @@
+{   
+    "title": "Creators",
+    "rejection-reasons": {
+        "OWNERSHIP_NOT_CONFIRMED": "Ownership not confirmed",
+        "NOT_ENOUGH_SUBS": "Not enough subscribers",
+        "GEO_NOT_SUPPORTED": "Geolocation not supported"
+    },
+    "columns": {
+        "creator-id": "Creator ID",
+        "brand-name": "Brand",
+        "ownership-confirmed": "Ownership",
+        "subs-count": "Subs count"
+    },
+    "review-modal": {
+        "title": "Creator to review",
+        "description-title": "Creator information"
+    }
+}

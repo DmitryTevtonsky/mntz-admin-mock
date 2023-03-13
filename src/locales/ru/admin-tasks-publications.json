@@ -1,0 +1,20 @@
+{
+    "title": "Посты авторов",
+    "rejection-reasons": {
+        "WRONG_MEDIA": "Некорректный контент",
+        "WRONG_TRACKING_LINK": "Неправильная ссылка",
+        "CONTUCT_US": "Связаться с нами"
+    },
+    "columns": {
+        "post-id": "Пост ID",
+        "creator-id": "Автор ID",
+        "offer-id": "Оффер ID",
+        "media-id": "Медиа ID",
+        "placements": "Размещения",
+        "link": "Ссылка на пост"
+    },
+    "review-modal": {
+        "title": "Пост для рассмотрения",
+        "description-title": "Информация о посте"
+    }
+}

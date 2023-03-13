@@ -1,0 +1,20 @@
+{
+    "title": "Медиа авторов",
+    "rejection-reasons": {
+        "POOR_QUALITY": "Плохое качество",
+        "INAPPROPRIATE": "Неприличное содержание",
+        "COPYRIGHT_VIOLATION": "Нарушение авторских прав"
+    },
+    "columns": {
+        "media-id": "Медиа ID",
+        "offer-id": "Оффер ID",
+        "creator-id": "Автор ID",
+        "filePreview": "Файл",
+        "placements": "Размещения"
+    },
+    "admin": "Админ",
+    "review-modal": {
+        "title": "Медиа для рассмотрения",
+        "description-title": "Информация о медиа"
+    }
+}

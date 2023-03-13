@@ -1,0 +1,67 @@
+{
+    "title": "Offers",
+    "addOffer": "Add offer",
+    "addOfferTitle": "Offer adding",
+    "updateOfferTitle": "Offer updating",
+    "readOfferTitle": "Offer information",
+    "createOffer": "Create offer",
+    "updateOffer": "Update offer",
+    "tabs": {
+        "tab1": "General info",
+        "tab2": "Media",
+        "tab3": "Active posts"
+    },
+    "media": {
+        "createTitle": "Create new media",
+        "placement": "Placement",
+        "placementType": "Type",
+        "addPlacement": "Add placement",
+        "placementMessage": "Select placement",
+        "fileMessage": "Select file"
+    },
+    "activePosts": {
+        "creatorId": "Creator ID",
+        "id": "ID",
+        "mediaAssetId": "Media ID",
+        "offerId": "Offer ID",
+        "postLink": "Post link",
+        "socialNetwork": "Placement",
+        "state": "Status"
+    },
+    "form": {
+        "appId": "App ID",
+        "app": "App",
+        "appCategory": "Category",
+        "appMessage": "Select app",
+        "budget": "Budget",
+        "balance": "Balance",
+        "budgetMessage": "Enter budget",
+        "baseReward": "Base reward",
+        "baseRewardMessage": "Enter base reward",
+        "rewardByCountry": {
+            "title": "Rewards by countries",
+            "country": "Country",
+            "countryMessage": "Select country",
+            "price": "Price",
+            "priceMessage": "Select price",
+            "addButton": "Add reward by country"
+        },
+        "status": {
+            "title": "Current status",
+            "active": "Active",
+            "paused": "Paused",
+            "stopped": "Completed",
+            "setActive": "Activate offer",
+            "setPause": "Pause offer",
+            "setStop": "Complete offer"
+        }
+    },
+    "card": {
+        "subtitle": "App id",
+        "column1": "Posts",
+        "column2": "Installs",
+        "column3": "Revenue"
+    },
+    "insufficientBalance": "Insufficient balance",
+    "insufficientBalanceTip": "Offer budget cannot be greater than the developer's current balance"
+}

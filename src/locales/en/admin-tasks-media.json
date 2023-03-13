@@ -1,0 +1,20 @@
+{   
+    "title": "Media by creators",
+    "rejection-reasons": {
+        "POOR_QUALITY": "Poor quality",
+        "INAPPROPRIATE": "Inappropriate",
+        "COPYRIGHT_VIOLATION": "Copytight violation"
+    },
+    "columns": {
+        "media-id": "Media ID",
+        "offer-id": "Offer ID",
+        "creator-id": "Creator ID",
+        "filePreview": "File",
+        "placements": "Placements"
+    },
+    "admin": "Admin",
+    "review-modal": {
+        "title": "Media to review",
+        "description-title": "Media information"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Publications by creators",
+    "rejection-reasons": {
+        "WRONG_MEDIA": "Wrong media",
+        "WRONG_TRACKING_LINK": "Wrong tracking link",
+        "CONTUCT_US": "Contact us"
+    },
+    "columns": {
+        "post-id": "Post ID",
+        "creator-id": "Creator ID",
+        "offer-id": "Offer ID",
+        "media-id": "Media ID",
+        "placements": "Placements",
+        "link": "Link to post"
+    },
+    "review-modal": {
+        "title": "Post to review",
+        "description-title": "Post information"
+    }
+}
