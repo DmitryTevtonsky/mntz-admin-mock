@@ -97,7 +97,6 @@ function* offersSaga(): SagaIterator {
         };
 
         const { data }: AxiosResponse<Offer> = yield axiosMain.post('/offers', createOfferPayload);
-        console.log({ data });
 
         if (data.id) {
           window.location.replace(`/offers/${data.id}`);

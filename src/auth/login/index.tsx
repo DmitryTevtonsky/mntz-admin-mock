@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/no-autofocus */
-import { Button, Form, InputNumber, Select, message } from 'antd';
+import { Button, Form, InputNumber, Select, message, notification } from 'antd';
 import { ConfirmationResult, RecaptchaVerifier } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -10,6 +10,7 @@ import { useAuth } from 'auth';
 
 import { fbAuth } from '../firebase';
 
+import { LanguageSelect } from 'core/components';
 import css from './index.module.css';
 
 const { Option } = Select;
@@ -47,6 +48,26 @@ const Login = () => {
       verifier.clear();
     };
   }, []);
+
+  useEffect(() => {
+    notification.open({
+      key: 'welcome',
+      message: t('welcomeTitle'),
+      description: (
+        <>
+          <span>{t('welcomeDescription1')}</span>
+          <span>{t('welcomeDescription2')}</span>
+          <br />
+          <span>{t('welcomeDescription3')}</span>
+        </>
+      ),
+      duration: 0,
+    });
+
+    return () => {
+      notification.close('welcome');
+    };
+  }, [t]);
 
   const handleGetCode = ({ prefixCode, phoneNumber }: LoginForm1StepValues) => {
     (async () => {
@@ -93,61 +114,67 @@ const Login = () => {
     <div className={css.layout}>
       <div id="recaptcha" />
 
-      {currentStep === 0 && (
-        <Form
-          form={form}
-          initialValues={{ prefixCode: '+7', phoneNumber: '7777777777' }}
-          size="large"
-          name="get-code-form"
-          className={css.loginForm}
-          onFinish={handleGetCode}
-        >
-          <Form.Item name="phoneNumber" rules={[{ required: true, message: t('phone-number-message') }]}>
-            <InputNumber
-              autoFocus
-              style={{ width: '100%' }}
-              controls={false}
-              addonBefore={prefixSelector}
-              placeholder={t('7777777777')}
-            />
-          </Form.Item>
+      <div className={css.formLayout}>
+        {currentStep === 0 && (
+          <Form
+            form={form}
+            initialValues={{ prefixCode: '+7', phoneNumber: '7777777777' }}
+            size="large"
+            name="get-code-form"
+            className={css.loginForm}
+            onFinish={handleGetCode}
+          >
+            <Form.Item name="phoneNumber" rules={[{ required: true, message: t('phone-number-message') }]}>
+              <InputNumber
+                autoFocus
+                style={{ width: '100%' }}
+                controls={false}
+                addonBefore={prefixSelector}
+                placeholder={t('7777777777')}
+              />
+            </Form.Item>
 
-          <Form.Item>
-            <Button
-              loading={currentStep === 0 && currentStepLoading}
-              id="get-code-button"
-              type="primary"
-              htmlType="submit"
-            >
-              {t('get-code')}
-            </Button>
-          </Form.Item>
-        </Form>
-      )}
-      {currentStep === 1 && (
-        <Form
-          size="large"
-          name="pass-code-form"
-          className={css.loginForm}
-          initialValues={{ code: '777777' }}
-          onFinish={handlePassCode}
-        >
-          <Form.Item name="code" rules={[{ required: true, message: t('code-message') }]}>
-            <InputNumber autoFocus style={{ width: '100%' }} controls={false} placeholder={t('code')} />
-          </Form.Item>
+            <Form.Item>
+              <Button
+                loading={currentStep === 0 && currentStepLoading}
+                id="get-code-button"
+                type="primary"
+                htmlType="submit"
+              >
+                {t('get-code')}
+              </Button>
+            </Form.Item>
+          </Form>
+        )}
+        {currentStep === 1 && (
+          <Form
+            size="large"
+            name="pass-code-form"
+            className={css.loginForm}
+            initialValues={{ code: '777777' }}
+            onFinish={handlePassCode}
+          >
+            <Form.Item name="code" rules={[{ required: true, message: t('code-message') }]}>
+              <InputNumber autoFocus style={{ width: '100%' }} controls={false} placeholder={t('code')} />
+            </Form.Item>
 
-          <Form.Item>
-            <Button
-              loading={currentStep === 1 && currentStepLoading}
-              id="login-button"
-              type="primary"
-              htmlType="submit"
-            >
-              {t('log-in')}
-            </Button>
-          </Form.Item>
-        </Form>
-      )}
+            <Form.Item>
+              <Button
+                loading={currentStep === 1 && currentStepLoading}
+                id="login-button"
+                type="primary"
+                htmlType="submit"
+              >
+                {t('log-in')}
+              </Button>
+            </Form.Item>
+          </Form>
+        )}
+
+        <div className={css.langSelect}>
+          <LanguageSelect />
+        </div>
+      </div>
     </div>
   );
 };

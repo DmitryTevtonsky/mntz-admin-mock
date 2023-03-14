@@ -1,18 +1,14 @@
 import { routes } from 'routes';
 import { useTranslation } from 'react-i18next';
-import React, { FC, Suspense, lazy } from 'react';
+import React, { FC } from 'react';
 
-import { CustomLink, ErrorBoundary } from 'core/components';
+import { CustomLink, LanguageSelect } from 'core/components';
 import { Route } from 'types';
 import { selectSidebarVisibility } from 'core/redux/selectors';
 import { toggleSidebarVisibility } from 'core/redux/slice';
 import { useAppDispatch, useAppSelector } from 'store';
 
 import css from './index.module.css';
-
-const LanguageSelectLazy = lazy(
-  () => import(/* webpackChunkName: "language-select-lazy"  */ 'core/components/language-select')
-);
 
 const Sidebar: FC = () => {
   const dispatch = useAppDispatch();
@@ -66,11 +62,7 @@ const Sidebar: FC = () => {
         })}
       </menu>
       <div className={css.controls}>
-        <ErrorBoundary invertedColors>
-          <Suspense fallback={null}>
-            <LanguageSelectLazy />
-          </Suspense>
-        </ErrorBoundary>
+        <LanguageSelect />
       </div>
     </>
   );

@@ -72,16 +72,16 @@ const ApplicationForm: FC<ApplicationFormProps> = ({ mode = 'update', data }: Ap
   const fields = useMemo(() => {
     return data
       ? [
-          { name: ['appName'], value: data.appName },
-          { name: ['appCategory'], value: data.appCategory },
-          { name: ['iconFile'], value: data.iconFile || data.iconUrl },
-          { name: ['iconUrl'], value: data.iconUrl },
-          { name: ['developerId'], value: data.developerId },
-          { name: ['appStoreLink'], value: data.appStoreLink },
-          { name: ['googlePlayLink'], value: data.googlePlayLink },
-          { name: ['oneLinkSubdomain'], value: data.oneLinkSubdomain },
-          { name: ['oneLinkTemplateId'], value: data.oneLinkTemplateId },
-        ]
+        { name: ['appName'], value: data.appName },
+        { name: ['appCategory'], value: data.appCategory },
+        { name: ['iconFile'], value: data.iconFile || data.iconUrl },
+        { name: ['iconUrl'], value: data.iconUrl },
+        { name: ['developerId'], value: data.developerId },
+        { name: ['appStoreLink'], value: data.appStoreLink },
+        { name: ['googlePlayLink'], value: data.googlePlayLink },
+        { name: ['oneLinkSubdomain'], value: data.oneLinkSubdomain },
+        { name: ['oneLinkTemplateId'], value: data.oneLinkTemplateId },
+      ]
       : undefined;
   }, [data]);
 
@@ -94,8 +94,6 @@ const ApplicationForm: FC<ApplicationFormProps> = ({ mode = 'update', data }: Ap
   };
 
   const handleChangeUpload = ({ fileList }: UploadChangeParam) => {
-    console.log(fileList);
-
     if (!fileList.length) {
       form.setFieldsValue({
         iconFile: undefined,

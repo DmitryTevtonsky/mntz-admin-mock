@@ -16,8 +16,18 @@
     margin-bottom: 2rem;
 }
 
+.formLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.langSelect {
+    position: absolute;
+    bottom: 1rem;
+}
+
 .loginForm {
-    padding: 0 1rem;
     width: 100%;
     max-width: 400px;
 }

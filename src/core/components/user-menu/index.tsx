@@ -6,8 +6,6 @@ import type { MenuProps } from 'antd';
 
 import { useAuth } from 'auth';
 
-// import css from './index.module.css';
-
 const UserMenu: FC = () => {
   const auth = useAuth();
   const { t } = useTranslation('');
@@ -15,7 +13,7 @@ const UserMenu: FC = () => {
   const handleMenuClick: MenuProps['onClick'] = (e) => {
     if (e.key === 'log-out') {
       auth.signout(() => {
-        console.log('out');
+        //
       });
     }
   };

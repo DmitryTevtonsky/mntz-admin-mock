@@ -9,3 +9,4 @@ export { default as ComingSoon } from './coming-soon';
 export { default as Logo } from './logo';
 export { default as IndexScreen } from './index-screen';
 export { default as UserMenu } from './user-menu';
+export { default as LanguageSelect } from './language-select';
