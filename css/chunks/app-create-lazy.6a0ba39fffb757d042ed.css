@@ -1,0 +1,37 @@
+
+
+.formLayout-LZQ2P {
+    height: auto;
+    padding: 1rem;
+}
+
+.form-dlKxF {
+    padding: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.form-dlKxF .ant-form-item-explain-error {
+    margin-left: 12px;
+}
+
+.form-dlKxF .ant-form-item:last-child {
+    margin-bottom: 0;
+}
+
+.submitButtonFormItem-pJV3o {
+    padding-top: 1rem;
+}
+
+.defaultIconAvatar-kMSCU {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*# sourceMappingURL=css\chunks\app-create-lazy.6a0ba39fffb757d042ed.css.map*/

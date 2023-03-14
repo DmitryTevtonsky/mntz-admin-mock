@@ -1,0 +1,14 @@
+{
+    "admin-tasks": "Задачи администратора",
+    "media-by-creators": "Медиа авторов",
+    "publications-by-creators": "Посты авторов",
+    "payments-to-creators": "Платежи авторам",
+    "offers": "Рекламные предложения (with MOCK data)",
+    "developers": "Разработчики (with MOCK data)",
+    "applications": "Приложения",
+    "creators": "Авторы",
+    "pending-approval": "Ожидают одобрения",
+    "approved": "Одобрены",
+    "suspended": "Приостановлены",
+    "dashboard": "Дашборды"
+}

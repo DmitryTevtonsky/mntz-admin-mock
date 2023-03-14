@@ -1,0 +1,9 @@
+.layout-QhbFl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+
+/*# sourceMappingURL=css\chunks\applications-lazy.87371cc6bd9c04f8e3db.css.map*/

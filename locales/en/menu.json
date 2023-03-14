@@ -1,0 +1,14 @@
+{
+    "admin-tasks": "Admin tasks",
+    "media-by-creators": "Media by creators",
+    "publications-by-creators": "Publications by creators",
+    "payments-to-creators": "Payments to creators",
+    "offers": "Offers (with MOCK data)",
+    "developers": "Developers (with MOCK data)",
+    "applications": "Applications",
+    "creators": "Creators",
+    "pending-approval": "Pending approval",
+    "approved": "Approved",
+    "suspended": "Suspended",
+    "dashboard": "Dashboard"
+}
