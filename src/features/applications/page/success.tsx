@@ -26,7 +26,6 @@ const ApplicationsSuccess: FC<ApplicationsSuccessProps> = ({ data }: Application
           subtitle={
             <>
               <span>{`${t('card.subtitle')}: ${app.developerId}`}</span>
-              <span>{`${app.platforms[0]} ${app.platforms[1] && `& ${app.platforms[1]}`}`}</span>
             </>
           }
           controls={

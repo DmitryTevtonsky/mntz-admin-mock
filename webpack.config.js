@@ -17,14 +17,14 @@ module.exports = function (env, { mode }) {
       },
       proxy: {
         '/api/json/**': {
-          target: 'https://mntzapp.co',
+          target: 'https://641084477b24bb91f21fd1e1.mockapi.io',
           changeOrigin: true,
           secure: false,
         },
       }
     },
     output: {
-      publicPath: '/',
+      publicPath: '/mntz-admin-mock/',
       filename: path.join('js', `bundle${mode === "production" ? ".[fullhash]" : ""}.js`),
       chunkFilename: path.join('js', 'chunks', '[name].[contenthash].js'),
     },
@@ -106,7 +106,7 @@ module.exports = function (env, { mode }) {
       }),
       new HtmlWebpackPlugin({
         template: './public/index.html',
-        publicPath: '/',
+        publicPath: '/mntz-admin-mock/',
         minify: mode === 'production' && {
           removeComments: true,
           collapseWhitespace: true,

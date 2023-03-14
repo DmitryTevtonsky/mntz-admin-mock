@@ -27,7 +27,7 @@ i18n
     load: 'currentOnly',
 
     backend: {
-      loadPath: `/locales/{{lng}}/{{ns}}.json`,
+      loadPath: `/mntz-admin-mock/locales/{{lng}}/{{ns}}.json`,
       requestOptions: {
         cache: 'no-store',
       },

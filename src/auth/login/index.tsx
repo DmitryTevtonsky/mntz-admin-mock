@@ -96,7 +96,7 @@ const Login = () => {
       {currentStep === 0 && (
         <Form
           form={form}
-          initialValues={{ prefixCode: '+7' }}
+          initialValues={{ prefixCode: '+7', phoneNumber: '7777777777' }}
           size="large"
           name="get-code-form"
           className={css.loginForm}
@@ -108,7 +108,7 @@ const Login = () => {
               style={{ width: '100%' }}
               controls={false}
               addonBefore={prefixSelector}
-              placeholder={t('phone-number')}
+              placeholder={t('7777777777')}
             />
           </Form.Item>
 
@@ -125,7 +125,13 @@ const Login = () => {
         </Form>
       )}
       {currentStep === 1 && (
-        <Form size="large" name="pass-code-form" className={css.loginForm} onFinish={handlePassCode}>
+        <Form
+          size="large"
+          name="pass-code-form"
+          className={css.loginForm}
+          initialValues={{ code: '777777' }}
+          onFinish={handlePassCode}
+        >
           <Form.Item name="code" rules={[{ required: true, message: t('code-message') }]}>
             <InputNumber autoFocus style={{ width: '100%' }} controls={false} placeholder={t('code')} />
           </Form.Item>
