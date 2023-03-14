@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/no-autofocus */
-import { Button, Form, InputNumber, Select, message, notification } from 'antd';
+import { Button, Form, InputNumber, Select, Typography, message, notification } from 'antd';
 import { ConfirmationResult, RecaptchaVerifier } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -22,6 +22,23 @@ const prefixSelector = (
     </Select>
   </Form.Item>
 );
+
+const Description = () => {
+  const { t } = useTranslation();
+
+  return (
+    <>
+      <p>{t('welcomeDescription1')}</p>
+      <p>{t('welcomeDescription2')}</p>
+      <br />
+      <p>{t('welcomeDescription3')}</p>
+
+      <a target="blank" href="https://www.linkedin.com/in/dmitry-prusakov/">
+        <Typography.Link>LinkedIn</Typography.Link>
+      </a>
+    </>
+  );
+};
 
 const Login = () => {
   const auth = useAuth();
@@ -53,14 +70,7 @@ const Login = () => {
     notification.open({
       key: 'welcome',
       message: t('welcomeTitle'),
-      description: (
-        <>
-          <span>{t('welcomeDescription1')}</span>
-          <span>{t('welcomeDescription2')}</span>
-          <br />
-          <span>{t('welcomeDescription3')}</span>
-        </>
-      ),
+      description: <Description />,
       duration: 0,
     });
 
