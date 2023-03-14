@@ -5,7 +5,9 @@
     "russian": "Russian"
   },
   "welcomeTitle": "Welcome!",
-  "welcomeDescription": "This site is a demo!\nThis is the front-end for admin panel for the MNTZ startup, fake data and authorization are connected.\nYou can enter by your number, but you can also use the phone +77777777777 and the code 777777.\nDeveloper Prusakov D. https://www.linkedin.com/in/dmitry-prusakov/",
+  "welcomeDescription1": "This site is a demo! This is the front-end for admin panel for the MNTZ startup, fake data and authorization are connected.",
+  "welcomeDescription2": "You can enter by your number, but you can also use the phone +77777777777 and the code 777777.",
+  "welcomeDescription3": "Developer Prusakov Dmitry.",
   "log-in": "Log in",
   "log-out": "Log out",
   "get-code": "Get code",

@@ -13185,6 +13185,7 @@ textarea.ant-input-number {
 .formLayout-fJMYz {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .langSelect-ACj5b {
@@ -13427,4 +13428,4 @@ a:hover {
 }
 
 
-/*# sourceMappingURL=css\bundle.9d8a04c1e708e29c3c28.css.map*/
+/*# sourceMappingURL=css\bundle.72f9fc3f09f1eb35b73d.css.map*/
