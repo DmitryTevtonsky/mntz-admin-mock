@@ -27,7 +27,11 @@ const LanguageSelect: FC = () => {
     >
       {Object.keys(languages).map((lng) => (
         <Select.Option className={css.languagesSelectOption} key={lng} value={lng}>
-          <img className={css.languageImg} src={`/images/flags/${lng}.png`} alt={`Icon for ${lng} language`} />
+          <img
+            className={css.languageImg}
+            src={`/mntz-admin-mock/images/flags/${lng}.png`}
+            alt={`Icon for ${lng} language`}
+          />
           {t(`languages.${languages[lng as LanguagesEnum]}`)}
         </Select.Option>
       ))}

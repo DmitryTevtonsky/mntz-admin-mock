@@ -21,7 +21,7 @@ root.render(
     <Suspense fallback={null}>
       <AuthProvider>
         <Provider store={store}>
-          <BrowserRouter>
+          <BrowserRouter basename="/mntz-admin-mock">
             <Routes>
               <Route path="/login" element={<Login />} />
               <Route

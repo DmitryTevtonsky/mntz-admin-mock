@@ -5,7 +5,7 @@ import css from './index.module.css';
 const InitialScreen: FC = () => {
   return (
     <div className={css.layout}>
-      <img src="images/mntz.svg" alt="Logo" />
+      <img src="/mntz-admin-mock/images/mntz.svg" alt="Logo" />
     </div>
   );
 };
