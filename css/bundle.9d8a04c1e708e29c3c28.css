@@ -13182,8 +13182,17 @@ textarea.ant-input-number {
     margin-bottom: 2rem;
 }
 
+.formLayout-fJMYz {
+    display: flex;
+    flex-direction: column;
+}
+
+.langSelect-ACj5b {
+    position: absolute;
+    bottom: 1rem;
+}
+
 .loginForm-W6BFr {
-    padding: 0 1rem;
     width: 100%;
     max-width: 400px;
 }
@@ -13418,4 +13427,4 @@ a:hover {
 }
 
 
-/*# sourceMappingURL=css\bundle.8178b7fa35865c9baa83.css.map*/
+/*# sourceMappingURL=css\bundle.9d8a04c1e708e29c3c28.css.map*/
